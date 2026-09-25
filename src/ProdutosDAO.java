@@ -36,8 +36,6 @@ public class ProdutosDAO {
 
             prep.executeUpdate();
 
-            System.out.println("Produto cadastrado com sucesso!");
-
             prep.close();
             conn.close();
 
